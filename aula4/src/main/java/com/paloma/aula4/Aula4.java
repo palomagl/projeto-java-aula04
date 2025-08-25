@@ -4,6 +4,8 @@
 
 package com.paloma.aula4;
 
+import java.awt.Window;
+
 /**
  *
  * @author 08284
@@ -11,6 +13,10 @@ package com.paloma.aula4;
 public class Aula4 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        JFTela app = new JFTela();
+        app.setTitle("GITHUB");
+        app.setLocationRelativeTo(app);
+        app.setVisible(true);
+
     }
 }
